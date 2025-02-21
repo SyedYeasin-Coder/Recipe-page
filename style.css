@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+    all: unset;
+}
+
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style : normal;
+}
+
+h2 {
+    color: hsla(14, 45%, 36%, 0.904);
+}
+
+body {
+    min-height         : 100vh;
+    display            : flex;
+    flex-direction     : column;
+    justify-content    : center;
+    align-items        : center;
+    gap                : 2rem;
+    background-color   : hsl(30, 54%, 90%);
+    font-family        : "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style         : normal;
+    font-size          : 16px;
+    margin             : 2rem;
+    color              : hsla(0, 0%, 0%, 0.856);
+
+}
+
+.whole-container {
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    gap             : 2rem;
+    max-width       : 700px;
+    background-color: hsl(0, 0%, 100%);
+    padding         : 1rem;
+    border-radius: 1.2rem;
+}
+
+ul li::before {
+    font-weight  : 600;
+    content      : "\2022";
+    color        : hsl(14, 45%, 36%, 0.904);
+    padding-right: 1.2rem;
+}
+
+.prep-container ul li::before {
+    color: hsl(332, 51%, 32%, 0.904);
+}
+
+.prep-container h3 {
+    color: hsl(332, 51%, 32%, 0.904);
+
+}
+
+.prep-container {
+    font-family        : "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style         : normal;
+    background-color   : hsl(330, 100%, 98%);
+    padding            : 1rem 2rem;
+    border-radius      : 1rem;
+}
+
+
+ul {
+    display       : flex;
+    flex-direction: column;
+}
+
+.bol {
+    color      : hsla(0, 0%, 0%, 0.719);
+    font-weight: bold;
+}
+
+ol {
+    display       : flex;
+    flex-direction: column;
+    counter-reset : instructions;
+}
+
+ol li::before {
+    font-weight      : 600;
+    content          : counter(instructions) ".";
+    counter-increment: instructions;
+    color            : hsl(14, 45%, 36%, 0.904);
+    padding-right    : 1.2rem;
+
+}
+
+.align-fix {
+    display    : inline-block;
+    width      : 90%;
+    padding-top: 1rem;
+}
+
+.head-image{
+    padding: 1.3rem;
+    padding-bottom: 0;
+    border-radius: 2rem;
+}
+.all-contents-container{
+    padding: 0 2rem;
+}
