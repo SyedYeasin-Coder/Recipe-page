@@ -8,13 +8,13 @@ Hello! Thanks for cheking out this repository.
 
 ## What is it about
 
-It's a solution of a newbie challange called "Blog Preview Card" made by Frontend Mentor.
+It's a solution of a newbie challange called "Recipe-page" made by Frontend Mentor.
 
 Here is the link of the challange-
-https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS
+https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
 
 Here is the solution site url-
-https://syedyeasin-coder.github.io/Blog-preview-card/
+https://syedyeasin-coder.github.io/Recipe-page/
 
 ## Built with
 
