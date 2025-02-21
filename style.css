@@ -34,7 +34,7 @@ body {
     font-family        : "Outfit", serif;
     font-optical-sizing: auto;
     font-style         : normal;
-    font-size          : 16px;
+    font-size          : 1rem;
     margin             : 2rem;
     color              : hsla(0, 0%, 0%, 0.856);
 
