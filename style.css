@@ -87,27 +87,6 @@ ul {
     font-weight: bold;
 }
 
-ol {
-    display       : flex;
-    flex-direction: column;
-    counter-reset : instructions;
-}
-
-ol li::before {
-    font-weight      : 600;
-    content          : counter(instructions) ".";
-    counter-increment: instructions;
-    color            : hsl(14, 45%, 36%, 0.904);
-    padding-right    : 1.2rem;
-
-}
-
-.align-fix {
-    display    : inline-block;
-    width      : 90%;
-    padding-top: 1rem;
-}
-
 .head-image{
     padding: 1.3rem;
     padding-bottom: 0;
@@ -115,4 +94,27 @@ ol li::before {
 }
 .all-contents-container{
     padding: 0 2rem;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    counter-reset: instructions;
+    gap: 0.8rem;
+}
+
+ol li {
+    display: flex;
+    gap: 0.5rem; /* Space between number and text */
+}
+
+ol li::before {
+    font-weight: 700;
+    content: counter(instructions) ".";
+    counter-increment: instructions;
+    color: hsl(14, 45%, 36%, 0.904);
+    min-width: 1.5rem; /* Ensures consistent number spacing */
+    text-align: right;
+    font-size: 1rem;
+    line-height: 1.6;
 }
