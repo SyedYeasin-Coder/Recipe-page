@@ -22,10 +22,6 @@ https://syedyeasin-coder.github.io/Recipe-page/
 
 -CSS Flexbox
 
--box-shadow
-
--hover effect
-
 ## Author
 
 Discord -[Syed Yeasin] UserName: string_tied
